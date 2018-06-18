@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CNNforTPM</title>
+<style type="text/css">
+.times_14 {	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+.arial_16 {	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.arial_22 {	font-family: Arial, Helvetica, sans-serif;
+	color: #660000;
+	font-size: 22px;
+}
+.arial_30 {	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #660000;
+	text-align: center;
+	font-weight: bold;
+}
+.times_15 {	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+}
+.STYLE86 {FONT-FAMILY: "Times New Roman", Times, serif; FONT-SIZE: 16px; }
+.abstract {FONT-FAMILY: "Trebuchet MS"; FONT-SIZE: 12px; }
+.update_time {	color: #660000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.update_time {	font-family: Georgia, "Times New Roman", Times, serif;
+}
+</style>
+</head>
+
+<body>
+<table width="900" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr align="center">
+    <td height="35">
+	  <table width="900" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="35">&nbsp;</td>
+        </tr>
+      </table>
+      <table width="900" height="92" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFCC">
+        <tr>
+          <td height="70" bgcolor="#FFFFFF" class="arial_30">GPU-based deep convolutional neural network<br>for tomographic phase microscopy<br>with l1 fitting and regularization</td>
+        </tr>
+        <tr>
+          <td width="900" height="13" bgcolor="#FFFFFF">&nbsp;</td>
+        </tr>
+      </table>
+      <table width="900" height="351" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFCC">
+        <tr>
+          <td height="20" bgcolor="#FFFFFF"><div align="center"> <strong class="STYLE86">Hui Qiao,</strong><sup>1</sup> Jiamin Wu,<sup>1</sup> Xiaoxu Li,<sup>1</sup> Morteza H. Shoreh,<sup>2</sup> Jingtao Fan,<sup>1</sup> and Qionghai Dai<sup>1,*</sup><br><em><sup>1</sup>Tsinghua University, Department of Automation, Beijing, China</em><br><em><sup>2</sup>École Polytechnique Fédérale de Lausanne, School of Engineering, Laboratory of Optics, Lausanne, Switzerland</em><br><em><sup>*</sup>Corresponding author: qhdai@tsinghua.edu.cn</em></div></td>
+        </tr>
+        <tr>
+          <td width="900" height="5" bgcolor="#FFFFFF">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="317" bgcolor="#FFFFFF">
+			  <div align="center"><img src="fig2.jpg" alt="CNN" width="880" height="330" /><br align="center" class="STYLE86">Detailed schematic of our CNN architecture, indicating the number of layers (Nz), nodes (Nx x Ny) in each layer and operations between adjacent layers.</br></div>
+		  </td>
+        </tr>
+      </table>
+      <table width="900" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="30"><p class="arial_22">Publications</p></td>
+        </tr>
+        <tr>
+          <td><strong>Hui Qiao</strong>, Jiamin Wu, Xiaoxu Li, Morteza H. Shoreh, Jingtao Fan, and Qionghai Dai, <em>GPU-based deep convolutional neural network for tomographic phase microscopy with l1 fitting and regularization</em>, J. Biomed. Opt. (JBO), 2018, 23(6): 066003.</td>
+        </tr>
+      </table>
+      <table width="900" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><p class="arial_22">Abstract</span></p></td>
+        </tr>
+        <tr>
+          <td>Tomographic phase microscopy (TPM) is a unique imaging modality to measure the three-dimensional refractive index distribution of transparent and semitransparent samples. However, the requirement of the dense sampling in a large range of incident angles restricts its temporal resolution and prevents its application in dynamic scenes. Here, we propose a graphics processing unit-based implementation of a deep convolutional neural network to improve the performance of phase tomography, especially with much fewer incident angles. As a loss function for the regularized TPM, the l1-norm sparsity constraint is introduced for both data-fidelity term and gradient-domain regularizer in the multislice beam propagation model. We compare our method with several state-of-the-art algorithms and obtain at least 14 dB improvement in signal-to-noise ratio. Experimental results on HeLa cells are also shown with different levels of data reduction.</td>
+        </tr>
+      </table>
+      <table width="900" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="13" colspan="9"><p><span class="arial_22">Files</span></p></td>
+        </tr>
+        <tr class="arial_16">
+          <td width="80" height="50" align="center" valign="middle"><img src="../../CommonImgs/pdf.jpg" alt="pdf" width="48" height="48" border="none" /></td>
+          <td width="100" align="left" valign="middle" class="times_25"><p>Paper[<a href="CNNforTPM.pdf">pdf</a>]</p></td>
+          <td width="80" align="center" valign="middle"><!--<img src="../../CommonImgs/Video.png" alt="video" width="48" height="48" border="0" />--></td>
+          <td width="70" align="left" valign="middle" class="arial_16"><!--<a href="multimedia.html">Video</a>--></td>
+          <td width="80" align="left" valign="middle"><p>&nbsp;</p></td>
+          <td width="70" align="left" valign="middle" class="times_25">&nbsp;</td>
+          <td width="80" align="left" valign="middle">&nbsp;</td>
+          <td width="170" align="left" valign="middle" class="times_25">&nbsp;</td>
+          <td width="289" align="left" valign="middle" class="times_25">&nbsp;</td>
+        </tr>
+      </table>
+      <table width="900" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><p class="arial_22">Bibtex</span></p></td>
+        </tr>
+        <tr>
+          <td><pre>@article{doi: 10.1117/1.JBO.23.6.066003,<br>author={Hui Qiao, Jiamin Wu, Xiaoxu Li, Morteza H. Shoreh, Jingtao Fan, Qionghai Dai},<br>title={GPU-based deep convolutional neural network for tomographic phase microscopy<br>with l1 fitting and regularization},<br>journal={Journal of Biomedical Optics},<br>volume={23},<br>number={6},<br>pages={23-23-7},<br>year={2018},<br>doi={10.1117/1.JBO.23.6.066003},<br>URL={https://doi.org/10.1117/1.JBO.23.6.066003}<br>}</pre></td>
+        </tr>
+      </table>
+      <table width="900" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><p class="arial_22">Additional Information</span></p></td>
+        </tr>
+        <tr>
+          <td height="317" bgcolor="#FFFFFF">
+			  <div align="center"><img src="fig1.jpg" alt="Setup" width="620" height="320" /><br align="center" class="STYLE86">Fig. 1. Experimental setup (BS, beam splitter; GM, galva mirror; L, lens; M, mirror; and OB, objective) and measured hologram by CMOS. Scale bar, 10 μm.</br></div>
+		  </td>
+        </tr>
+        <tr>
+          <td height="317" bgcolor="#FFFFFF">
+			  <div align="center"><img src="fig2.jpg" alt="CNN" width="800" height="310" /><br align="center" class="STYLE86">Fig. 2. Detailed schematic of our CNN architecture, indicating the number of layers (Nz), nodes (Nx x Ny) in each layer and operations between adjacent layers.</br></div>
+		  </td>
+        </tr>
+	    <tr>
+          <td height="317" bgcolor="#FFFFFF">
+			  <div align="center"><img src="fig3.jpg" alt="Beads" width="400" height="300" /><br align="center" class="STYLE86">Fig. 3. Simulation geometry comprising three spherical beads with a refractive index difference of 0.03 compared with the background.</br></div>
+		  </td>
+        </tr>
+        <tr>
+          <td height="317" bgcolor="#FFFFFF">
+			  <div align="center"><img src="fig4.jpg" alt="Simulation" width="880" height="390" /><br align="center" class="STYLE86">Fig. 4. Reconstruction results of three 5 μm beads. Comparison of the cross-sectional slices of the 3-D refractive index distribution of the sample along the x−y, x−z, and y−z planes reconstructed by (a) proposed CNN, (b) CNN with l1 fitting, l2 regularization (L1 L2) and the regularization coefficient of 5, (c) CNN with l2 fitting, l1 regularization (L2 L1) and the regularization coefficient of 0.1, (d) learning approach implemented on the same CNN settings (LA) with the regularization coefficient of 0.6, (e) optical diffraction tomography based on the Rytov approximation (ODT) with the positivity constraint and 100 iterations, and (f) iterative reconstruction based on the filtered backprojection method with the positivity constraint and 400 iterations. Scale bar, 5 μm.</br></div>
+		  </td>
+        </tr>
+        <tr>
+          <td height="290" bgcolor="#FFFFFF">
+			  <div align="center"><img src="fig5.jpg" alt="BeadsProfile" width="600" height="260" /><br align="center" class="STYLE86">Fig. 5. Comparison of the refractive index profiles along the z-axis reconstructed by different algorithms and the ground truth.</br></div>
+		  </td>
+        </tr>
+        <tr>
+          <td height="300" bgcolor="#FFFFFF">
+			  <div align="center"><img src="fig6.jpg" alt="Analyses" width="750" height="300" /><br align="center" class="STYLE86">Fig. 6. Performance analysis for proposed approach with the same hyperparameter selection. (a) The curve of the reconstructed SNR versus the noise level and (b) the curve of the reconstructed SNR versus the number of the incident angles.</br></div>
+		  </td>
+        </tr>
+        <tr>
+          <td height="300" bgcolor="#FFFFFF">
+			  <div align="center"><img src="fig7.jpg" alt="HeLaCell" width="800" height="440" /><br align="center" class="STYLE86">Fig. 7. Comparison of three reconstruction algorithms for various levels of data reduction on a HeLa cell. (a–d) Proposed CNN, (e–h) LA with the regularization coefficient of 1.5, (i–l) ODT with the positivity constraint and 20 iterations, (a, e, and i) 41 training data, (b, f, and j) 21 training data, (c, g, and k) 11 training data, and (d, h, and l) 6 training data. Scale bar, 10 μm.</br></div>
+		  </td>
+        </tr>
+        <tr>
+          <td height="317" bgcolor="#FFFFFF">
+			  <div align="center"><img src="fig8.jpg" alt="CellProfile" width="400" height="310" /><br align="center" class="STYLE86">Fig. 8. Comparison of the reconstructed HeLa cell refractive index profiles along the z-axis with 41 training data.</br></div>
+		  </td>
+        </tr>
+        <tr>
+          <td height="317" bgcolor="#FFFFFF">
+			  <div align="center"><img src="fig9.jpg" alt="Iteration" width="400" height="310" /><br align="center" class="STYLE86">Fig. 9. Reconstructed SNR plotted as a function of the number of iterations for different reconstruction methods on simulated data.</br></div>
+		  </td>
+        </tr>
+        <tr>
+          <td height="317" bgcolor="#FFFFFF">
+			  <div align="center"><img src="fig10.jpg" alt="Convergence" width="400" height="310" /><br align="center" class="STYLE86">Fig. 10. Reconstructed SNR of proposed approach plotted as a function of the number of iterations for two different training optimization algorithms on simulated data with the same hyperparameters.</br></div>
+		  </td>
+        </tr>
+      </table>
+      <table width="900" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="15"><p class="arial_22">Acknowlegements</p></td>
+        </tr>
+        <tr>
+          <td height="15"><span class="STYLE86">This work was supported by the National Natural Science Foundation of China (Nos. 61327902 and 61671265).</span></td>
+        </tr>
+        <tr>
+          <td height="15" align="right" class="times_14">BBNC Lab, Department of Automation, Tsinghua University - All rights reserved. <span class="update_time"><em>Last updated: <!-- #BeginDate format:wacAm3 -->Mon, 06/18/2018<!-- #EndDate --></em></span></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
